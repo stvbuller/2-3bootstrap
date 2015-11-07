@@ -8,6 +8,10 @@ header {
 	background-color: red;
 }
 
+.logo {
+  width: 200px;
+}
+
 nav {
 	background-color: orange;
 }
