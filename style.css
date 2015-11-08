@@ -6,10 +6,27 @@ header, nav, section, aside, footer {
 
 header {
 	background-color: red;
+  padding-bottom: 50px;
+  padding-right: 75px;
 }
 
 .logo {
   width: 200px;
+  position: absolute;
+  margin-left: 110px;
+}
+
+.col-md-4 {
+
+}
+
+.col-md-8 {
+  padding-top: 30px;
+  text-align: right;
+}
+
+.btn {
+  border-radius: 0px;
 }
 
 nav {
