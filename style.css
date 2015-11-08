@@ -49,6 +49,14 @@ footer {
 
 /* Footer CSS */
 
+.foot-linkrow { 
+	margin-bottom: 10px;
+}
+
+.foot-linkrow a {
+	margin: 5px 5px 10px;
+}
+
 .copyright {
 	font-size: 10px;
 	color: #777;
