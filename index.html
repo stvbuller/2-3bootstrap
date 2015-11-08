@@ -10,42 +10,54 @@
 <div class="container">
 
 	<div class="row">
-		<nav class="col-md-12">
-			<div class="dropdown">
-  			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-   			 Dropdown
-    			<span class="caret"></span>
- 			 	</button>
-  				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    				<li><a href="#">Action</a></li>
-    				<li><a href="#">Another action</a></li>
-    				<li><a href="#">Something else here</a></li>
-  				</ul>
-  		</div>		
-  					<h3>
-		  				<span class="label sign-up">sign-up</span>
-							<span class="label login">login</span>
-							<span class="label tour">tour</span>
-						</h3>
-			<div class="dropdown">
-  			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="		dropdown" aria-haspopup="true" aria-expanded="true">
-   			 	Dropdown
-    			<span class="caret"></span>
- 			 	</button>
-  			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    			<li><a href="#">Action</a></li>
-    			<li><a href="#">Another action</a></li>
-    			<li><a href="#">Something else here</a></li>
-  			</ul>
-  		</div>		
+		<nav class="col-md-12"><!--go column by column -->
+	    <div class="col-md-4">
+        <div class="dropdown">
+          <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          stack overflow
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+          <!--<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">-->
+            <li><a href="#">meta stack overflow</a></li>
+            <li><a href="#">stack overflow</a></li>
+            <li><a href="#">stack overflow careers</a></li>
+          </ul>
+         </div> 
+      </div>
+  		<div class="col-md-3">
+        <div class="pull-right">
+          <a class="btn btn-default btn-xs" href="#" role="button">sign up</a>
+          <a class="btn btn-default btn-xs" href="#" role="button">login</a>
+          <a class="btn btn-default btn-xs" href="#" role="button">tour</a>
+        </div>
+      </div> 
 
+      <div class="col-md-1">
+          <div class="dropdown">
+            <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="dropdownMenu1"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              help
+              <span class="caret"></span>
+            </button> 
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Tour</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Meta</a></li>
+            </ul>
+          </div>
+      </div>
 
-						<h3>
-							<span class="label careers">stackoverflow careers</span>
-						</h3>	
-			</div>This is a nav menu
+			<div class="col-md-2">
+        <a class="btn btn-default btn-xs" href="#" role="button">stack overflow careers</a>
+      </div>
+      <div class="col-md-2">
+          <form class="navbar-search">
+              <input type="text" class="search-query" placeholder="Search">
+          </form>
+      </div>  
 		</nav>
 	</div>
+
 	<div class="row">
 		<header> 
 			<div class"col-md-4">
