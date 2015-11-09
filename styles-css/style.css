@@ -1,13 +1,13 @@
 
 header, nav, section, aside, footer {
-	padding: 10px;
-	border: 1px solid green;
+	/*padding: 10px;
+	border: 1px solid green;*/
 }
 
 header {
-	background-color: red;
+	/*background-color: red;
   padding-bottom: 50px;
-  padding-right: 75px;
+  padding-right: 75px;*/
 }
 
 .logo {
@@ -30,11 +30,11 @@ header {
 }
 
 nav {
-	background-color: orange;
+	/*background-color: orange;*/
 }
 
 section {
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 
 aside {
